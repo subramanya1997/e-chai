@@ -2398,8 +2398,11 @@ h4 {
 }
 
 .dashboard {
+  width: 100%;
+  min-height: 200px;
   margin-bottom: -70px;
   box-shadow: 0 4px 8px #0000000d;
+  object-fit: contain;
 }
 
 .brand-section {
