@@ -1807,3 +1807,101 @@ textarea.w-select {
   top: 0;
   left: 0;
 }
+.mainLogo{
+  height: 105px;
+  width: auto;
+  position: relative;
+  top:-0.5px;
+}
+
+.mainLogo-footer{
+  position: relative;
+  left: -45px;
+  top: -30px;
+}
+
+.menu-list-ul{
+  position: relative;
+  left:20px
+}
+
+.FlexCenter{
+  display: flex;
+  align-items: center;
+}
+
+.head-btn-text{
+  font-size: 13px !important;
+}
+
+.loginBtn{
+  border: 2px solid #1d1d1d;
+  padding: 11px 15px;
+  border-radius: 25px;
+  margin: 0 10px;
+  width: 135px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.userIcon{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 1px;
+  content: url('../images/person.svg');
+}
+
+.loginTxt{
+  font-family: var(--secondary-font);
+  color: #1d1d1d;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: none;
+  position: relative;
+  left: -8px;
+}
+
+.loginBtn a{
+  font-size: 13px;
+}
+
+.loginBtn:hover{
+  background: #a364ff;
+  border: 2px solid #a364ff;
+  transition: all 0.5s ease-in-out;
+}
+
+.loginBtn:hover .loginTxt{
+  color: #fff;
+}
+
+.loginBtn:hover .userIcon {
+  content: url('../images/personBG.svg');
+  transition: all 0.5s ease-in-out;
+}
+
+/* Media Query for responsive */
+@media (max-width: 768px) {
+  .mainLogo {
+      height: 70px;
+      width: auto;
+      position: relative;
+      top: -0.5px;
+  }
+
+  .menu-list-ul {
+    position: inherit;
+    left: inherit;
+  }
+
+  .nav-menu{
+    margin-top: -5px !important;
+  }
+
+  .mainLogo-footer{
+    left: 0;
+  }
+}
